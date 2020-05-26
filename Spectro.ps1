@@ -274,4 +274,3 @@ $outDir = New-Item -Force -Path "$audioDir" -Name "Spectrograms" -ItemType "Dire
             & sox $infile -n spectrogram $FFTwindow $zColor $zLimit $zQuant $bw $showText $showHiColor $printFriend  -o $outfile".png"
             
     }
-Write-Output $FFTwindow
