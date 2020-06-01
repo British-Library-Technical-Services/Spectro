@@ -1,10 +1,34 @@
 # Spectro v0.2
+> Batch create spectrograms from a folder containing .wav files
 
-Batch Spectrogram script using Sox
+GUI interface allowing specification of SoX spectrogram options and batch generation of spectrograms for a specified audio folder.
 
-Requires SoX to be installed and added to PATH variable in Windows.
+## Installation
 
-Notes:
+Windows:
+
+Requires SoX to be installed and added to PATH variable in Windows. 
+sox - SOund eXchange: http://sox.sourceforge.net/
+Adding a program to PATH: https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/
+
+## Usage example
+
+A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+
+```sh
+PS C:\Windows\System32> & "C:\Path\To\Directory\spectro.ps1"
+```
+
+## Release History
+
+* 0.0.2
+    * ADDED: Additional user options
+    * ADDED: Progress bar window
+    * CHANGED: Fixed image width of 1600px
+* 0.0.1
+    * Work in progress
+
+## Notes:
 
 * Will create a directory called 'spectrograms' in the root audio folder you select using 'browse'
 * Will generate spectrograms for *all* .wav files in the audio directory, in .png format to the spectrogram directory
