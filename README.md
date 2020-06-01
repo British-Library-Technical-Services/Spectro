@@ -13,8 +13,6 @@ Adding a program to PATH: https://www.howtogeek.com/118594/how-to-edit-your-syst
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
 ```sh
 PS C:\Windows\System32> & "C:\Path\To\Directory\spectro.ps1"
 ```
