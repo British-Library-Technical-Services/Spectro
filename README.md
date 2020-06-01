@@ -1,4 +1,4 @@
-# Spectro v0.2
+# Spectro v0.0.2
 > Batch create spectrograms from a folder containing .wav files
 
 GUI interface allowing specification of SoX spectrogram options and batch generation of spectrograms for a specified audio folder.
